@@ -4,18 +4,25 @@ export default function ServerPCSpecs() {
     return (
         <Container className="d-flex w-100 p-3 mx-auto flex-column justify-content-center position-relative">
             <h1>Info</h1>
-            <p className="text-muted pb-3">Information regarding the PC hosting the IA Minecraft server, plugins & datapacks for the <br />server, and other things related to the IA Minecraft server will be found below. </p>
+            <p className="text-muted pb-3">Information regarding the PC hosting the InnovationMC server, plugins & datapacks for the <br />server, and other things related to the InnovationMC server will be found below. </p>
             <main className="overflow-auto">
                 <h3>Server PC Specs</h3>
                 <ListGroup variant="flush">
-                    <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light"><b>CPU:</b> 2x AMD Opteron 6220 8-Core</ListGroup.Item>
-                    <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light"><b>GPU:</b> Integrated Graphics</ListGroup.Item>
-                    <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light"><b>RAM:</b> 32GB <i>(server memory)</i></ListGroup.Item>
+                    <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light"><b>CPU:</b> 2x AMD Opteron 6328 8-Core</ListGroup.Item>
+                    <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light">
+                        <dl>
+                            <dt>GPU: </dt>
+                            <dd>RTX 2070</dd> 
+                            <dd>Integrated Graphics</dd> 
+                        </dl>
+                    </ListGroup.Item>
+                    <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light"><b>RAM:</b> 64GB <i>(server memory)</i></ListGroup.Item>
                     <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light"><b>PSU:</b> Dual 770W <i>(redundant)</i></ListGroup.Item>
                     <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light">
                         <dl>
                             <dt>Storage: </dt>
                             <dd>128GB SATA SSD</dd>
+                            <dd>500GB NVME SSD</dd>
                             <dd>4x 500GB 7200RPM HDD</dd>
                         </dl>
                     </ListGroup.Item>
@@ -42,6 +49,10 @@ export default function ServerPCSpecs() {
                     <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light">Unlock All Recipes v2.0.1</ListGroup.Item>
                     <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light">Villager Death Messages v1.2.1</ListGroup.Item>
                     <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light">Wandering Trades v1.5.0</ListGroup.Item>
+                </ListGroup>
+                <h5>Anti-Cheat</h5>
+                <ListGroup variant="flush">
+                    <ListGroup.Item style={{ backgroundColor: "#212529", borderColor: "white" }} className="text-light">NoCheatPlus</ListGroup.Item>
                 </ListGroup>
             </main>
         </Container>

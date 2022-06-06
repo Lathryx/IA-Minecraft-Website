@@ -11,10 +11,13 @@ html, #root {
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(45deg, #00ff95, #f17e12 70%);
+  background: -webkit-linear-gradient(45deg, #00ff95, #f17e12 70%); 
+  background-size: 125% 125%; 
   opacity: 1 !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: gradientText 10s ease infinite; 
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 #homepageCarousel {
@@ -77,6 +80,12 @@ html, #root {
   25% {opacity: 1;} 
   75% {opacity: 1;} 
   100% {opacity: 0;} 
+}
+
+@keyframes gradientText {
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;} 
 }
 
 @media only screen and (max-width: 768px) {

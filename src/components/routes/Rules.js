@@ -2,10 +2,11 @@ import { Container } from "react-bootstrap";
 
 export default function Rules() {
     return (
-        <Container className="d-flex w-100 h-100 p-3 mx-auto flex-column justify-content-center align-items-center position-relative">
+        <Container className="d-flex w-100 h-100 p-3 mx-auto flex-column justigfy-content-center align-igtems-center position-relative">
+            <h1>Rules</h1>
+            <p className="text-muted pb-3">These are guidelines by which each player on the InnovationMC server should behave in accordance with. <br />By joining the InnovationMC server, you agree to these rules. </p>
             <main className="overflow-auto">
-                <h1>Rules</h1>
-                <ol style={{ fontSize: "larger" }}>
+                <ol className="fs-3">
                     <li>No griefing. </li>
                     <li>No anarchy. </li>
                     <li>No harassment. </li>

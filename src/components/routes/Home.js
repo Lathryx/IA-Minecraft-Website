@@ -41,7 +41,7 @@ export default function Home() {
                 <Container fluid style={{ height: "calc(100vh - 72px)", background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${worldImgs[imgIndex]})` }} className="text-center d-flex w-100 p-3 mx-auto flex-column justify-content-center align-items-center position-relative" id="homepageCarousel" ref={homepageCarousel}> 
                 </Container>
                 <main className="text-center px-3 overflow-auto position-absolute top-50 start-0 end-0">
-                    <h1 className="gradient-text">Welcome to the IA Minecraft server! </h1>
+                    <h1 className="gradient-text">Welcome to the InnovationMC server! </h1>
                 </main>
             </div>
             {/* <Carousel>
@@ -63,8 +63,8 @@ export default function Home() {
             </Carousel> */} 
             <Container className="p-5">
                 <p className="lead">
-                    Welcome to the IA Minecraft website, here you can find all the info you need about 
-                    the unofficial IA Minecraft server. We have a process to whitelist new members, so if 
+                    Welcome to the InnovationMC website, here you can find all the info you need about 
+                    the unofficial InnovationMC server. We have a process to whitelist new members, so if 
                     you're not a part of this great community already, click <Link to="/how-to-join" className="text-info link">here</Link> to 
                     get started. On this website, we have lots of useful info about the server including, 
                     but not limited to: the hardware and people who run it, and announcements and rules 
@@ -80,7 +80,7 @@ export default function Home() {
                 <Card.Img variant="top" src="https://i0.wp.com/nintendosoup.com/wp-content/uploads/2017/08/paypal_logo_1.jpg?fit=895%2C543&ssl=1 cap" /> 
                 <Card.Body>
                     <Card.Title>Wanna support the server?</Card.Title>
-                    <Card.Text>Donate to help pay for costs related to the IA Minecraft server! </Card.Text>
+                    <Card.Text>Donate to help pay for costs related to the InnovationMC server! </Card.Text>
                     <form action="https://www.paypal.com/donate" method="post" target="_top">
                         <input type="hidden" name="hosted_button_id" value="E346CY3TZQQ9W" />
                         <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />

@@ -5,11 +5,11 @@ import IamcLogo from '../img/iamc-logo.png';
 export default function Navbar() {
     return (
         <BSNavbar expand="lg" className="sticky-top px-5 py-3" variant="dark" bg="dark">
-            <BSNavbar.Brand as={Link} to="/"><img src={IamcLogo} width="40" height="40" style={{ borderRadius: 15, marginRight: 15 }} /> IA Minecraft</BSNavbar.Brand>
+            <BSNavbar.Brand as={Link} to="/"><img src={IamcLogo} width="40" height="40" style={{ borderRadius: 15, marginRight: 15 }} /> InnovationMC</BSNavbar.Brand>
             <BSNavbar.Toggle aria-controls="navbar-nav" className="justify-content-end" />
             <BSNavbar.Collapse>
                 <Nav fill className="px-5" style={{ marginLeft: 'auto' }}>
-                    <NavDropdown menuVariant="dark" title="Info" id="info-dropdown">
+                    <NavDropdown menuvariant="dark" title="Info" id="info-dropdown">
                         <NavDropdown.Item>
                             <Nav.Link className="text-dark" as={Link} to="/season-info">Season Info</Nav.Link>
                         </NavDropdown.Item>
